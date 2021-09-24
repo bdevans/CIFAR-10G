@@ -33,6 +33,6 @@ git add ./224x224/\*.png
 TODO
 ----
 
-Create 32x32 sets
-Add sheets of images to README
-Add statistics plot of CIFAR-10 images (without rescaling)
+- [ ] Add README with sheets of images to each subdirectory
+- [ ] Add statistics plot of CIFAR-10 images (without rescaling)
+- [ ] Create 32x32 sets
