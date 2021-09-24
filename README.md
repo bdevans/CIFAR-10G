@@ -19,15 +19,6 @@ Example Images
 | ship001 | ![](224x224/line_drawings/ship/ship001.png) | ![](224x224/line_drawings_inverted/ship/ship001.png) | ![](224x224/silhouettes/ship/ship001.png) | ![](224x224/silhouettes_inverted/ship/ship001.png) | ![](224x224/contours/ship/ship001.png) | ![](224x224/contours_inverted/ship/ship001.png) |
 | truck001 | ![](224x224/line_drawings/truck/truck001.png) | ![](224x224/line_drawings_inverted/truck/truck001.png) | ![](224x224/silhouettes/truck/truck001.png) | ![](224x224/silhouettes_inverted/truck/truck001.png) | ![](224x224/contours/truck/truck001.png) | ![](224x224/contours_inverted/truck/truck001.png) |
 
-Compress pngs
--------------
-
-find . -type f -iname "*.png" -print0 | xargs -I {} -0 optipng -o5 -quiet -keep -preserve -log optipng.log "{}"
-
-Recursively add pngs
---------------------
-
-git add ./224x224/\*.png
 
 
 TODO
