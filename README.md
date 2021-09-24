@@ -1,6 +1,11 @@
 CIFAR-10G
 =========
 
+Stylised out-of-domain generalisation test images for models trained with CIFAR-10. 
+
+Example Images
+--------------
+
 | Image | Line Drawings | Line Drawings (inverted) | Silhouettes | Silhouettes (inverted) | Contours | Contours (inverted) |
 | ----- | ------------- | ------------------------ | ----------- | ---------------------- | -------- | ------------------- |
 | airplane001 | ![](224x224/line_drawings/airplane/airplane001.png) | ![](224x224/line_drawings_inverted/airplane/airplane001.png) | ![](224x224/silhouettes/airplane/airplane001.png) | ![](224x224/silhouettes_inverted/airplane/airplane001.png) | ![](224x224/contours/airplane/airplane001.png) | ![](224x224/contours_inverted/airplane/airplane001.png) |
