@@ -3,6 +3,31 @@ CIFAR-10G
 
 Stylised out-of-domain generalisation test images for models trained with the [`CIFAR-10` dataset](https://www.cs.toronto.edu/~kriz/cifar.html). 
 
+Instructions
+------------
+
+Clone the repository into your workspace with the following command:
+
+```
+git clone https://github.com/bdevans/CIFAR-10G.git
+```
+
+Within the `224x224` subdirectory, there is a directory for each type of test set:
+
+```
+['line_drawings', 'line_drawings_inverted',
+ 'contours', 'contours_inverted',
+ 'silhouettes', 'silhouettes_inverted']
+```
+
+Within each of these directories are ten subdirectories named after the `CIFAR-10` categories:
+
+```
+('airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
+```
+
+Each of these category directories contains ten examples of each type of image. This allows the images to be loaded (and processed) on the fly with e.g. a `Keras` `ImageDataGenerator` using the [`flow_from_directory` method](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator#flow_from_directory). 
+
 Example Images
 --------------
 
