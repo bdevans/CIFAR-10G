@@ -1,7 +1,7 @@
 CIFAR-10G
 =========
 
-Stylised out-of-domain generalisation test images for models trained with CIFAR-10. 
+Stylised out-of-domain generalisation test images for models trained with the [`CIFAR-10` dataset](https://www.cs.toronto.edu/~kriz/cifar.html). 
 
 Example Images
 --------------
