@@ -28,6 +28,39 @@ Within each of these directories are ten subdirectories named after the `CIFAR-1
 
 Each of these category directories contains ten examples of each type of image. This allows the images to be loaded (and processed) on the fly with e.g. a `Keras` `ImageDataGenerator` using the [`flow_from_directory` method](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator#flow_from_directory). 
 
+The directory structure with the `224x224` folder is illustrated below. 
+
+```
+.
+├── contours
+│   ├── airplane
+│   │   ├── airplane001.png
+│   │   ├── airplane002.png
+│   │   ├── airplane003.png
+│   │   └── ...
+│   ├── automobile
+│   │   ├── automobile001.png
+│   │   ├── automobile002.png
+│   │   ├── automobile003.png
+│   │   └── ...
+│   ├── bird
+│   │   └── ...
+│   └── ...
+├── contours_inverted
+│   ├── airplane
+│   ├── automobile
+│   ├── bird
+│   └── ...
+├── line_drawings
+│   └── ...
+├── line_drawings_inverted
+│   └── ...
+├── silhouettes
+│   └── ...
+└── silhouettes_inverted
+    └── ...
+```
+
 Example Images
 --------------
 
