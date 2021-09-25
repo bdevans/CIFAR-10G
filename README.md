@@ -24,6 +24,6 @@ Example Images
 TODO
 ----
 
-- [ ] Add README with sheets of images to each subdirectory
+- [x] Add README with sheets of images to each subdirectory
 - [ ] Add statistics plot of CIFAR-10 images (without rescaling)
 - [ ] Create 32x32 sets
