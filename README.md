@@ -3,6 +3,8 @@ CIFAR-10G
 
 Stylised out-of-domain generalisation test images for models trained with the [`CIFAR-10` dataset](https://www.cs.toronto.edu/~kriz/cifar.html). 
 
+CIFAR-10G © 2021 by Benjamin D. Evans is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
 Instructions
 ------------
 
