@@ -85,7 +85,7 @@ Example Images
 Citation
 --------
 
-If you use this dataset in your own research, we would appreciate you citing the journal article for which it was created (in addition to the Zenodo archive reference).
+If you use this dataset in your own research, we would appreciate you citing the journal article for which it was created (in addition to the Zenodo archive reference). The accompanying repository for the model code is here: https://github.com/bdevans/BioNet. 
 
 ```
 @article{EvansBiologicalConvolutions,
