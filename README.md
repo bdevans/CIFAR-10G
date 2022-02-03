@@ -81,3 +81,24 @@ Example Images
 | horse001 | ![](224x224/line_drawings/horse/horse001.png) | ![](224x224/line_drawings_inverted/horse/horse001.png) | ![](224x224/silhouettes/horse/horse001.png) | ![](224x224/silhouettes_inverted/horse/horse001.png) | ![](224x224/contours/horse/horse001.png) | ![](224x224/contours_inverted/horse/horse001.png) |
 | ship001 | ![](224x224/line_drawings/ship/ship001.png) | ![](224x224/line_drawings_inverted/ship/ship001.png) | ![](224x224/silhouettes/ship/ship001.png) | ![](224x224/silhouettes_inverted/ship/ship001.png) | ![](224x224/contours/ship/ship001.png) | ![](224x224/contours_inverted/ship/ship001.png) |
 | truck001 | ![](224x224/line_drawings/truck/truck001.png) | ![](224x224/line_drawings_inverted/truck/truck001.png) | ![](224x224/silhouettes/truck/truck001.png) | ![](224x224/silhouettes_inverted/truck/truck001.png) | ![](224x224/contours/truck/truck001.png) | ![](224x224/contours_inverted/truck/truck001.png) |
+
+Citation
+--------
+
+If you use this dataset in your own research, we would appreciate you citing the journal article for which it was created (in addition to the Zenodo archive reference).
+
+```
+@article{EvansBiologicalConvolutions,
+title = {Biological convolutions improve DNN robustness to noise and generalisation},
+journal = {Neural Networks},
+volume = {148},
+pages = {96-110},
+year = {2022},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2021.12.005},
+url = {https://www.sciencedirect.com/science/article/pii/S0893608021004780},
+author = {Benjamin D. Evans and Gaurav Malhotra and Jeffrey S. Bowers},
+keywords = {Deep learning, Convolutional neural network, Biological constraint, Gabor filter, Noise tolerance, Generalisation},
+abstract = {Deep Convolutional Neural Networks (DNNs) have achieved superhuman accuracy on standard image classification benchmarks. Their success has reignited significant interest in their use as models of the primate visual system, bolstered by claims of their architectural and representational similarities. However, closer scrutiny of these models suggests that they rely on various forms of shortcut learning to achieve their impressive performance, such as using texture rather than shape information. Such superficial solutions to image recognition have been shown to make DNNs brittle in the face of more challenging tests such as noise-perturbed or out-of-distribution images, casting doubt on their similarity to their biological counterparts. In the present work, we demonstrate that adding fixed biological filter banks, in particular banks of Gabor filters, helps to constrain the networks to avoid reliance on shortcuts, making them develop more structured internal representations and more tolerance to noise. Importantly, they also gained around 20--35% improved accuracy when generalising to our novel out-of-distribution test image sets over standard end-to-end trained architectures. We take these findings to suggest that these properties of the primate visual system should be incorporated into DNNs to make them more able to cope with real-world vision and better capture some of the more impressive aspects of human visual perception such as generalisation.}
+}
+```
